@@ -37,13 +37,13 @@ Window {
         MouseArea {
             anchors.fill: parent
             onClicked: {
-                redRectId.height = Qt.binding(function(){
-                    return redRectId.width * 2
+//                redRectId.height = Qt.binding(function(){
+//                    return redRectId.width * 2
 
-                })
+//                })
 
-//                redRectId.height = redRectId.width * 2
-//                console.log(redRectId.height)
+                redRectId.height = redRectId.width * 2
+                console.log(redRectId.height)
 
             }
         }
